@@ -1,0 +1,8 @@
+.idea/
+.vscode/
+.vs/
+cmake-build-debug/
+bin/
+build/
+out/
+CMakeSettings.json
