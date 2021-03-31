@@ -1,9 +1,9 @@
 #include "raylib.h"
 
-#define SCREEN_WIDTH (800)
-#define SCREEN_HEIGHT (450)
+constexpr auto SCREEN_WIDTH  = 800;
+constexpr auto SCREEN_HEIGHT = 450;
 
-int main(void)
+int main()
 {
     InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Window title");
     SetTargetFPS(60);
