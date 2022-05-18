@@ -27,7 +27,8 @@ int main()
         EndDrawing();
     }
 
-    CloseWindow();
+    UnloadTexture(texture);
 
+    CloseWindow();
     return 0;
 }
